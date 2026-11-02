@@ -113,7 +113,7 @@ modules:
         commit: 7181c771aa29deaea8bfbe6098613c3a929e9189
         x-checker-data:
           type: git
-          tag-pattern: ^([\\d.]+)$
+          tag-pattern: '^([\d.]+)$'
     cleanup:
       - /lib/pkgconfig
       - /lib/libSDL2_mixer_ext.so
